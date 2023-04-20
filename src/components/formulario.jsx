@@ -13,7 +13,7 @@ const Formulario = () => {
     const [email, setEmail] = useState("");
     const [lista, setLista] = useState(baseColaboradores);
     const [nuevaLista, setNuevaLista] = useState(baseColaboradores);
-    const [resultado, setResultado] = useState({isShown: true, msg:'',variant:''});
+    
 
     //Función al enviar el formulario
     const enviarFormulario = (e) => {
